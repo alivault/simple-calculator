@@ -8,7 +8,7 @@ The calculator is built using JavaScript and follows best practices for code org
 
 ## How to Use
 
-Visit http://www.aliabbas.dev/calculator/
+Visit http://www.aliabbas.dev/simple-calculator/
 
 1. Append numbers: Click on the number buttons or use the keyboard to enter numbers. Decimal point can be added using the `.` key.
 2. Perform operations: Click on the operation buttons (+, -, ×, ÷) or use the corresponding keyboard symbols (+, -, *, /) to select the operation.
