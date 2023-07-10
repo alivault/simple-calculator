@@ -12,6 +12,7 @@ body {
   background: #e0e0e0;
   -webkit-tap-highlight-color: transparent; /* For Safari */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
 }
 
 .calculator-grid {
@@ -25,6 +26,10 @@ body {
 }
 
 .calculator-grid > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
   cursor: pointer;
   font-size: 2rem;
   border: none;
@@ -32,11 +37,7 @@ body {
   border-radius: 100px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
-}
-
-.calculator-grid > button:hover {
-  background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+  touch-action: manipulation;
 }
 
 .calculator-grid > button:active {
@@ -46,10 +47,6 @@ body {
 
 [data-equals] {
   background: linear-gradient(145deg, #cb8c1e, #f2a723) !important;
-}
-
-[data-equals]:hover {
-  background: linear-gradient(145deg, #f2a723, #cb8c1e) !important;
 }
 
 [data-equals]:active {
